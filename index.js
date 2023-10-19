@@ -42,7 +42,7 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     //   await client.connect();
-    const musicShop = client.db("Music");
+    const musicShop = client.db("courses");
     const users = musicShop.collection("users");
     const classes = musicShop.collection("classes");
 
